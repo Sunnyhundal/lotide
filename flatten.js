@@ -28,6 +28,6 @@ const assertArraysEqual = function(arrayOne, arrayTwo) {
 const flatten = function(array) {
 let newArray = array.flat();
 return newArray
-};
+}
 
-console.log(flatten([1, 2, [3, 4], 5, [6]]));
+assertArraysEqual(flatten([1, 2, [3, 4], 5, [6]]), [1, 2, 3, 4, 5, 6] );
