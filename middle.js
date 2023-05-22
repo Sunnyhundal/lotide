@@ -48,7 +48,7 @@ const middle = function(array) {
    return;
   }
 }
-
+// test cases
   middle([1]);
   middle([1, 2]);
 
