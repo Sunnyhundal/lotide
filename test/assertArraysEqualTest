@@ -1,0 +1,10 @@
+//const eqArrays = require('../eqArrays');
+const assertArraysEqual = require('../assertArraysEqual');
+
+//Test code
+
+assertArraysEqual([1, 2, 3], [1, 2, 3]);
+assertArraysEqual([5, 6, 7], [5, 6, 7]);
+assertArraysEqual(['a', 'b', 'c'], ['A', 'b', 'c']);
+assertArraysEqual([3, 2, 3], [2]);
+assertArraysEqual(['Woff'], ['WoFf']); 
