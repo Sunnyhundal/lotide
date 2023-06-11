@@ -1,41 +1,11 @@
+//Import eqArrays
 const eqArrays = require('./eqArrays');
-
-// const eqArrays = function(arrayOne, arrayTwo) {
-//   let arrayCounter = 0;
-//   if (arrayOne.length !== arrayTwo.length) {
-//     return false;
-//   }
-  
-//   for (let i = 0; i < arrayOne.length; i++) {
-//     if (arrayOne[i] === arrayTwo[i]) {
-//       arrayCounter ++;
-//     }
-//   }
-  
-//   if (arrayCounter !== arrayOne.length) {
-//     return false;
-//   } else {
-//     return true;
-//   }
-// };
-
-const assertEqual = function(actual, expected) {
-  
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-
-};
-
-
-
+// A function designed to compare two objects
 const eqObjects = function(object1, object2) {
   const keysOne = Object.keys(object1);
   const keysTwo = Object.keys(object2);
 console.log(keysOne);
-
+// returns false if the two arrays do not have matching legnths 
   if (keysOne.length !== keysTwo.length) {
     return false;
   }
@@ -50,5 +20,5 @@ console.log(keysOne);
   
 
 };
-
+//Export eqObjects for use outside file
 module.exports = eqObjects;
