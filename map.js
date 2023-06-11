@@ -38,22 +38,5 @@ const map = function(array, callback) {
   return results;
 }
 
-
-const results1 = map(words, word => word[0]);
-const results2 = map(words, word => word[0]);
-const results3 = map(words, word => word[Math.floor(word.length/2)]);
-const results4 = map(words, word => word[word.length - 1]);
-
-
-
-console.log(results1);
-console.log(results2);
-console.log(results3);
-console.log(results4);
-
-assertArraysEqual(results1[0], "g");
-assertArraysEqual(results2[1], "c");
-assertArraysEqual(results3[0], "u");
-assertArraysEqual(results4[0], "d");
-
+module.exports = map;
 
