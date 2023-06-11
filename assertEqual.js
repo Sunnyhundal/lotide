@@ -1,3 +1,5 @@
+
+// Compares parameters passed to function to check if the actual value equals the expected value
 const assertEqual = function(actual, expected) {
   
   if (actual === expected) {
@@ -7,3 +9,4 @@ const assertEqual = function(actual, expected) {
   }
 
 };
+module.exports = assertEqual;
