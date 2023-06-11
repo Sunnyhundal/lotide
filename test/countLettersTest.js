@@ -8,5 +8,3 @@ describe("#countLetters", () => {
   });
 
 });
-
-console.log(countLetters("lighthouse in the house").h, 4);
