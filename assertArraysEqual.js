@@ -1,3 +1,4 @@
+//Imports eqArray to help get a deeper look at arrays
 const eqArrays = require('./eqArrays');
 
 const assertArraysEqual = function(arrayOne, arrayTwo) {
