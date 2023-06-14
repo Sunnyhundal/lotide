@@ -1,8 +1,5 @@
 //Removes the first index of an array and returns the remaining array
-const assertEqual = require('./assertEqual');
 
-let tail = function(assertEqual) {
-  return assertEqual.slice(1);
-};
+let tail = array => array.slice(1);
 
-module.exports = tail;
+module.exports = tail; //Exports for use in tailTest.js
