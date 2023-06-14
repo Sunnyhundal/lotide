@@ -11,10 +11,4 @@ const assertObjectsEqual = function(actual, expected) {
   }
 };
 
-//test case
-const shirtObject = { color: "red", size: "medium" };
-const anotherShirtObject = { size: "medium", color: "red" };
-
-assertObjectsEqual(shirtObject, anotherShirtObject);
-
 module.exports = assertObjectsEqual;
