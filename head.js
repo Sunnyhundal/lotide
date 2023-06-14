@@ -1,6 +1,4 @@
 // Returns the first value from an array
-const assertEqual = require('./assertEqual');
+let head = array => array[0];
 
-let head = assertEqual => assertEqual[0];
-
-module.exports = head;
+module.exports = head; //Exports head for use in headTest.js
