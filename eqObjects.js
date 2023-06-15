@@ -12,7 +12,7 @@ const eqObjects = function(object1, object2) {
   }
 
   for (const keys of keysOne) {
-    if(Array.isArray(object1[keys] && Array.isArray(object2[keys])))
+    if(Array.isArray(object1[keys]) && Array.isArray(object2[keys])) {
       if (!eqArrays(object1[keys], object2[keys])) {
        return false;
     }
@@ -22,7 +22,7 @@ const eqObjects = function(object1, object2) {
     } 
     return true;
   };
-
+};
   
 
 
