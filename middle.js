@@ -5,7 +5,7 @@ const middle = function(array) {
   //If an array with length of 1 or 2 are passed, then return an empty array
   if (array.length === 1 || array.length === 2) {
     return middleArray;
-  
+
   }
   //How to handle arrays that are even
   if (array.length % 2 === 0) {
