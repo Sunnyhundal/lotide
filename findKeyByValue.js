@@ -1,8 +1,8 @@
-function findKeyByValue(category, nameOfShow) {
-  const keys = Object.keys(category);
+function findKeyByValue(object, value) {
+  const keys = Object.keys(object);
   for (let show of keys) {
  
-    if (category[show] === nameOfShow) {
+    if (object[show] === value) {
       return show;
     }
   
