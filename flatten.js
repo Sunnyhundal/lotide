@@ -1,4 +1,4 @@
-const flattenTwo = function(array, arr) {
+const flatten = function(array) {
   let newArray = [];
   for (let i = 0; i < array.length; i++) {
     
@@ -13,4 +13,4 @@ const flattenTwo = function(array, arr) {
   return newArray;
 };
 
-module.exports = flattenTwo;
+module.exports = flatten;
