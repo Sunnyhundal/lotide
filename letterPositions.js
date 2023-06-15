@@ -1,8 +1,8 @@
-const letterPositions = function(sentence, letter) {
+const letterPositions = function(sentence) {
   const result = {};
-  let letters = [];
-  for (let index = 0; index < sentence.length; index++) {
   
+  for (let index = 0; index < sentence.length; index++) {
+    let letters = [index];
     if (sentence[index] !== " ") {
       letters.push(sentence[index]);
     } else {
