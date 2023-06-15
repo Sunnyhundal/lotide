@@ -5,8 +5,6 @@ function findKeyByValue(object, value) {
     if (object[show] === value) {
       return show;
     }
-  
-  
   }
   return undefined;
 }
