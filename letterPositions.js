@@ -1,20 +1,20 @@
-const letterPositions = function(sentence) {
+const letterPositions = function(string) {
   const result = {};
   
-  for (let index = 0; index < sentence.length; index++) {
+  for (let index = 0; index < string.length; index++) {
     let letters = [index];
-    if (sentence[index] !== " ") {
-      letters.push(sentence[index]);
+    if (string[index] !== " ") {
+      letters.push(string[index]);
     } else {
       letters.push[index];
       continue;
     }
   
-    if (!result[sentence[index]]) {
-      result[sentence[index]] = [];
-      result[sentence[index]].push(index);
+    if (!result[string[index]]) {
+      result[string[index]] = [];
+      result[string[index]].push(index);
     } else {
-      result[sentence[index]].push(index);
+      result[string[index]].push(index);
     }
 
   }
